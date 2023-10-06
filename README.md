@@ -22,3 +22,11 @@ To edit this repository in MakeCode.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+## Credits to the original author for sharing their valuable work for us.
+
+1. [https://github.com/tinkertanker/pxt-range-vl53l0x/](https://github.com/tinkertanker/pxt-range-vl53l0x/)
+Changelog:
+    * Change the "Rangefinder" namespace to "Brickcell"
+    * Added a subcategory name "tof vl53lox" to make it submodule of Brickcell block.
+    
