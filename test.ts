@@ -1,1 +1,6 @@
-// tests go here; this will not be compiled when this package is used as an extension.
+Brickcell.init()
+basic.forever(() => {
+    serial.writeNumber(Brickcell.distance())
+    serial.writeString("\r\n")
+    basic.pause(1000);
+})
