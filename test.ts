@@ -1,6 +1,6 @@
 Brickcell.init()
-basic.forever(() => {
+basic.forever(function () {
     serial.writeNumber(Brickcell.distance())
-    serial.writeString("\r\n")
-    basic.pause(1000);
+    serial.writeString("" + ("\r\n"))
+    basic.pause(1000)
 })

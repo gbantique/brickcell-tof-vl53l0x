@@ -65,7 +65,7 @@ namespace Brickcell {
     /**
     * Initialises the rangefinder.
     **/
-    //% block="initialise"
+    //% block="initialise TOF"
     //% blockId=ranger_init
     //% subcategory="tof vl53l0x"
     export function init(): void {
